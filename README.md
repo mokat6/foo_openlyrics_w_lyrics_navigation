@@ -1,8 +1,9 @@
 # How to install
 1. Download released foo_openlyrics-v1.13.fb2k-component
-2. Have Foobar2000 open
-3. Double click foo_openlyrics-v1.13.fb2k-component
-4. Restart Foobar2000 
+https://github.com/mokat6/foo_openlyrics_w_lyrics_navigation/releases/tag/1.13-lyrics-navigation
+3. Have Foobar2000 open
+4. Double click foo_openlyrics-v1.13.fb2k-component
+5. Restart Foobar2000 
 
 Plugin file is just a zipped up folder with .zip renamed to .fb2k-component  
 Inside the zip there is foo_openlyrics.dll, one for x86, and one for x64.  

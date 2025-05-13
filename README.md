@@ -1,37 +1,33 @@
-# foo_openlyrics
+# How to install
+1. Download released foo_openlyrics-v1.13.fb2k-component
+2. Have Foobar2000 open
+3. Double click foo_openlyrics-v1.13.fb2k-component
+4. Restart Foobar2000 
 
-![build-and-test workflow](https://github.com/jacquesh/foo_openlyrics/actions/workflows/run_tests.yml/badge.svg)
+Plugin file is just a zipped up folder with .zip renamed to .fb2k-component  
+Inside the zip there is foo_openlyrics.dll, one for x86, and one for x64.  
+The single dll file is copied to `C:\Users\UserName\AppData\Roaming\foobar2000-v2\user-components-x64\foo_openlyrics\`   
+And thats it.
 
-An open-source lyrics plugin for [foobar2000](https://www.foobar2000.org/) that includes its own UI panel for displaying and sources for downloading lyrics that are not available locally. It is intended to be a replacement for LyricShowPanel3 so it is fully-featured and supports lyric searching, saving and editing directly from within foobar2000.
 
-## Features
-* Buttery-smooth lyric scrolling
-* Supports retrieving lyrics from local files, ID3 tags or the internet
-* Customise the font & colours to perfectly suite your layout & theme
-* Supports using album art or any other image as the panel background, with optional transparency and blur
-* Easily edit lyrics directly inside foobar2000 with built-in support for timestamps
-* Check the saved lyrics of any track in your library (regardless of whether it is currently playing)
-* Apply common edits (such as removing blank lines) in just 2 clicks
-* ...and more!
+# The fork implements Lyrics navigation feature
+Added 3 context menu buttons:
+1. Seek to next lyric timestamp
+2. Seek to prev lyric timestamp
+3. Seek to `repeat current lyric timestamp`
 
-## Screenshots
-Fonts & colours are fully configurable
-![](.github/readme/lyrics_vertical_scroll.gif)
+<img src="https://github.com/user-attachments/assets/327db9fc-c8b8-4010-b6cd-74114217924c" width="700" />
 
-The editor window
-![](.github/readme/editor.jpg)
+<br /><br />
 
-## How to install foo_openlyrics
-1. Find the latest [release on Github](https://github.com/jacquesh/foo_openlyrics/releases).
-2. Download the `fb2k-component` file attached to the release (don't worry about the `debug_symbols` zip file).
-3. Double-click on the file you just downloaded. Assuming foobar2000 is installed, it should open up with the installation dialog. Restart foobar2000 when asked.
-4. Add the "OpenLyrics Panel" to your layout.
+Context menu buttons can be assigned keyboard hotkeys   <br />
+<img src="https://github.com/user-attachments/assets/cf97291e-e984-4412-bb1d-62b7c6e9b0cf" width="600" />
 
-## Why another lyrics plugin?
-At the time that I started this, the most widely-used lyrics plugin was [foo_uie_lyrics3](https://www.foobar2000.org/components/view/foo_uie_lyrics3) which had several built-in sources but those had largely stopped working due to the relevant websites going down or otherwise becoming generally unavailable. The original developer seemed to be nowhere in sight though and the source for the plugin did not appear to be available anywhere online. There is an SDK for building one's own sources for foo_uie_lyrics3 but building plugins for plugins didn't really take my fancy. Other (more up-to-date) plugins did exist but were mostly distributed by people posting binaries for you to download from their Dropbox on Reddit. Running binaries published via Dropbox by random people on Reddit did not seem like the most amazing idea.
 
-## Contributing
-Please do log an issue or send a pull request if you have found a bug, would like a feature added. If you'd like to support the project you can also make a small donation using any of these links:
+Using
 
-[![](.github/readme/bmc-button.png)](https://www.buymeacoffee.com/jacquesheunis)
-[![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/jacquesheunis/donate)
+https://github.com/user-attachments/assets/d4fa5a18-e5e6-406b-8d8e-92d9bf901c7c
+
+
+
+

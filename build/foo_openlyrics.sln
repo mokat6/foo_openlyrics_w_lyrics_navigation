@@ -37,6 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenLyricsMetrics", "..\met
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared", "..\3rdparty\foo_SDK\foobar2000\shared\shared.vcxproj", "{054C606B-17BF-4540-AC4E-A9A7243628B8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\src\ui_lyrics_panel.h = ..\src\ui_lyrics_panel.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -206,7 +211,6 @@ Global
 		{1A6E6173-AF42-4A1A-B62C-2393476B5B4F}.Release|ARM64EC.ActiveCfg = Release|x64
 		{1A6E6173-AF42-4A1A-B62C-2393476B5B4F}.Release|ARM64EC.Build.0 = Release|x64
 		{1A6E6173-AF42-4A1A-B62C-2393476B5B4F}.Release|x64.ActiveCfg = Release|x64
-		{1A6E6173-AF42-4A1A-B62C-2393476B5B4F}.Release|x64.Build.0 = Release|x64
 		{1A6E6173-AF42-4A1A-B62C-2393476B5B4F}.Release|x86.ActiveCfg = Release|Win32
 		{1A6E6173-AF42-4A1A-B62C-2393476B5B4F}.Release|x86.Build.0 = Release|Win32
 		{9DBC980D-D0FB-4812-958D-8A077EF62450}.Debug|ARM64.ActiveCfg = Debug|x64

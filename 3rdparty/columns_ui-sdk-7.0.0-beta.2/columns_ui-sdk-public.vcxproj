@@ -22,7 +22,7 @@
     <ProjectName>columns_ui_sdk</ProjectName>
     <ProjectGuid>{3181FC06-B4ED-4609-8B4F-7220571C6992}</ProjectGuid>
     <RootNamespace>ui_extension</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">

@@ -29,6 +29,12 @@ Using
 
 https://github.com/user-attachments/assets/d4fa5a18-e5e6-406b-8d8e-92d9bf901c7c
 
+# Metadata tags
+Both Unsynced and Synced set to the same value   
+✅ LYRICS (Works in Foobar2000, Navidrome, but mp3 not found in some offline players)  
+❌ UNSYNCED LYRICS (Doesn't work in Navidrome, but works in offline players)
+
+
 
 
 
